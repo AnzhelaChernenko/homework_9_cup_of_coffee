@@ -1,0 +1,84 @@
+*{transition: all .2s ease-in;}
+
+@font-face {
+    font-family: 'Miso';
+    src: url('./fonts/transfonter.org-20191006-124834/Miso.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+body{
+    background-color: #fdde7e;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    width: calc(100% - 30px);
+}
+.cup_1,.cup_2,.cup_3{
+    display: block;
+    width: 360px;
+    height: 440px;
+    background-color: white;
+    margin-right: 30px;
+    font-family: 'Miso';
+}
+.cup_3{
+    margin-right: 0px;
+}
+.large_gole{
+    color: black;
+    font-size: 54px;
+    font-weight: 200;
+}
+.rules{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    text-align: center;
+}
+img{
+    display: block;
+}
+.price_1{
+    font-family: 'Miso';
+    font-weight: bolder;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: #02995b;
+    text-align: center;
+}
+
+.describe{
+    font-family: 'Miso';
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    line-height: 24px;
+}
+
+.cup_1:hover{
+    cursor: pointer;
+    height: 500px;
+}
+.cup_2:hover{
+    cursor: pointer;
+    height: 500px;
+}
+
+.cup_3:hover{
+    cursor: pointer;
+    height: 500px;
+}
+
